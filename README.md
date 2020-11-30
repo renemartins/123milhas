@@ -7,7 +7,7 @@ Está Api faz parte de um teste proposto pela empresa [123 Milhas](https://123mi
 ##### Passo 1
 
 ```
-$ git clone XXXX
+$ git clone https://github.com/renemartins/123milhas
 ```
 
 ##### Passo 2

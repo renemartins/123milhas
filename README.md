@@ -2,6 +2,17 @@
 
 Está Api faz parte de um teste proposto pela empresa [123 Milhas](https://123milhas.com/);
 
+##### Test Online
+
+```
+GET http://milhas123.herokuapp.com/api/flights
+```
+
+```
+Docs http://milhas123.herokuapp.com/api/documentation
+```
+
+
 ## Rodar o projeto local
 
 ##### Passo 1

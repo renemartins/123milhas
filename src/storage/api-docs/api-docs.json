@@ -1,0 +1,33 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "123 Milhas",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/flights": {
+            "get": {
+                "tags": [
+                    "Flight"
+                ],
+                "summary": "Returns a group of flight",
+                "description": "Returns a group of flight",
+                "operationId": "App\\Http\\Controllers\\api\\FlightsController::index",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "401": {
+                        "description": "Unauthenticated"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
